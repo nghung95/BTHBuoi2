@@ -20,5 +20,13 @@ namespace BTH1
         {
             label1.Text = "HELLO GITHUP";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int so1 = int.Parse(textBox1.Text);
+            int so2 = int.Parse(textBox2.Text);
+            int c = so1 + so2;
+                
+        }
     }
 }
